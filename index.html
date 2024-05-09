@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/10b510c983.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <div class="navbar">
+            <div class="logo"><a href="#"><img src="images/logo.png"></a></div>
+            <div class="menu-items" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+
+
+    <!-- Home section -->
+    <section class="home" id="home">
+            <div class="home-content">
+                <div class="text-1">Hello my name is </div>
+                <div class="text-2">Philiph Mutuku</div>
+                <div class="text-3">And i'm a <span class="typing"></span> </div>
+</div>
+</section>
+
+    <!-- About section -->
+
+    <section class="about" id="about">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column-left">
+                    <img src="images/mutuku.png">
+                </div>
+                <div class="column-right">
+                    <div class="text-1">I'am Philiph and i am a <span class="typing-2"></span></div>
+                    <p>As a full-stack developer and graphic design expert, I bring a unique combination of technical and creative skills to every project I work on. 
+                        With years of expertise in the IT industry, I have developed a deep understanding of the latest technologies and trends, and I use this knowledge to create innovative solutions that meet the needs 
+                        of my clients. My expertise in web development, database design, and programming languages such as Javascript, Java, HTML, CSS and Python allows me to create powerful and dynamic websites and applications
+                        that are both functional and user-friendly. I also have a strong understanding of UX/UI design principles, and I use this knowledge to create visually stunning designs that are both aesthetically pleasing and intuitive to use.
+                        In addition to my technical skills, I am also an experienced graphic designer with keen eye for detail and passion for creating beautiful and engaging designs.
+                    </p>
+                    <a href="https://docs.google.com/document/d/1PyFAMaEN5xUE4fKwnj1btFD97OI5VpIKaazOD2EQX10/edit?usp=sharing">Download CV</a>
+                </div>
+            </div>
+    </section>
+
+    <!-- services section -->
+    <section class="services" id="services">
+            <div class="title">what i provide</div>
+            <div class="services-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web development</div>
+                        <p>I offer both front-end and backend development for both websites and web applications. I also design, test and debug website and apps!</p>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fab fa-youtube"></i>
+                        <div class="text">Graphic Design</div>
+                        <p>For quality graphic work, don't hesitate to hire me now. I design and create logos, posters, cards, fliers, bronchures, 
+                            certificates and any other related graphical tasks!
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Tutoring</div>
+                        <p>Over years, I have been training thousands programmers on how to code and other computer skills through youtube channel (Learntech Philloh) 
+                            and website (www.learntechphilloh.com)!
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Skills sections -->
+    <section class="skills" id="skills">
+            <h2 class="title">my skills</h2>
+            <div class="skills-content">
+            <div class="column-left">
+                <div class="text">My creative skills & experiences</div>
+                <p>As an IT ensthusiast, I never stopped learning, during my freetime and school time. 
+                    I can proudly testify i'm well equipped in the following fields and soft skills. Throughout my career, I have built a reputation
+                    for being a reliable and dedicated IT expert, always striving to provide the highest level of service to my clients.
+                </p>
+                <a href="https://docs.google.com/document/d/1PyFAMaEN5xUE4fKwnj1btFD97OI5VpIKaazOD2EQX10/edit?usp=sharing">Read more..</a>
+            </div>
+            <div class="column-right">
+                <div class="bars">
+                    <div class="info">
+                        <span>Front-end Development</span>
+                        <span>95%</span>
+                        
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Backend Development</span>
+                        <span>90%</span>
+                        
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Graphic Design</span>
+                        <span>85%</span>
+                        
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Database Development</span>
+                        <span>80%</span>
+                        
+                    </div>
+                    <div class="line mysql"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>App Development</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line php"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Computer Packages</span>
+                        <span>95%</span>                       
+                    </div>
+                    <div class="line react"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teams sections -->
+    <section class="teams" id="teams">
+            <h2 class="title">Other Developers</h2>
+                <div class="carousel owl-carousel">
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/person1.jpg">
+                            <div class="text">James Irungu</div>
+                            <p>Overall, I would highly recommend Philiph Mutuku to anyone in need of a skilled and reliable developer.</p>
+                            
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/person3.jpg">
+                            <div class="text">Anne Njeru</div>
+                            <p>In addition to their technical expertise, Philiph Mutuku was an absolute pleasure to work with.</p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/person2.jpg">
+                            <div class="text">Fredrick Kyalo</div>
+                            <p>Philiph Mutuku consistently demonstrated a deep understanding of the project requirements and was able to dliver high-quality work.</p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/person4.jpg">
+                            <div class="text">Onesmus Munyao</div>
+                            <p>I had pleasure of working closely with Philiph Mutuku on Projects over a course of 2 years. I was impressed by his technical skills and ability to communicate complex ideas.</p>
+
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Cntact section -->
+   <section class="contact" id="contact">
+           <h2 class="title">Contact me</h2>
+           <div class="contact-content">
+               <div class="column-left">
+                   <div class="text">Get in touch</div>
+                   <p>To hire me or maybe enquire any information from me, feel free to contact me anytime!</p>
+                   <div class="icon">
+                       <div class="row">
+                           <i class="fas fa-user"></i>
+                           <div class="info">
+                               <div class="head">Name</div>
+                               <div class="sub-title">Philiph Mutuku</div>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <i class="fas fa-map-marker-alt"></i>
+                           <div class="info">
+                               <div class="head">Address</div>
+                               <div class="sub-title">Nairobi, Kenya</div>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <i class="fas fa-envelope"></i>
+                           <div class="info">
+                               <div class="head">Email</div>
+                               <div class="sub-title">kimanziphiliphmutuku@gmail.com</div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="column-right">
+                   <div class="text">Message me</div>
+                   <form action="contact.php" method="post">
+                       <div class="fields">
+                           <div class="field name">
+                               <input type="text" id="name" placeholder="Name" required>
+                           </div>
+                           <div class="field email">
+                               <input type="email" id="email" placeholder="Email" required>
+                           </div>
+                           <div class="field subject">
+                               <input type="text" id="subject" placeholder="Subject" required>
+                           </div>
+                           <div class="textarea">
+                           <textarea cols="30" rows="10" id="message" placeholder="Type here..." required></textarea>
+                        </div>
+                       </div>
+                       <div class="button">
+                       <button type="submit">Send message</button>
+                    </div>
+                   </form>
+               </div>
+           </div>
+   </section>
+
+
+   <!-- Footer -->
+   <footer>
+       <span>Designed by <a href="https://sakazidevs.com">Sakazidevs | </a><span class="far fa-copyright"> 2022 All rights reserved</span></span>
+   </footer>
+
+    
+
+
+<!---javascript for closing and opening menu on small screens-->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right='0';
+    }
+    function hideMenu(){
+        navLinks.style.right='-220px';
+    }
+</script>
+
+<script src="scripts.js"></script>
+</body>
+</html>
